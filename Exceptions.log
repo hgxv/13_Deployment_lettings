@@ -1,0 +1,6 @@
+WARNING 2023-11-23 09:47:40,348 log GET Not Found: /lettings/2/
+WARNING 2023-11-23 09:47:40,353 log GET Not Found: /fffff/
+WARNING 2023-11-23 09:47:40,768 log GET Not Found: /profiles/PatrickNotHere/
+INFO 2023-11-23 10:21:06,958 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-23 13:13:47,333 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-23 13:13:47,441 proactor_events Using proactor: IocpProactor
