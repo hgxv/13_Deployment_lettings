@@ -4,3 +4,708 @@ WARNING 2023-11-23 09:47:40,768 log GET Not Found: /profiles/PatrickNotHere/
 INFO 2023-11-23 10:21:06,958 autoreload Watching for file changes with StatReloader
 DEBUG 2023-11-23 13:13:47,333 proactor_events Using proactor: IocpProactor
 DEBUG 2023-11-23 13:13:47,441 proactor_events Using proactor: IocpProactor
+INFO 2023-11-23 13:18:06,915 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-23 13:18:47,303 log Not Found: /profiles/zzz/
+INFO 2023-11-23 13:28:40,991 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+DEBUG 2023-11-23 13:28:40,992 proactor_events Using proactor: IocpProactor
+INFO 2023-11-23 13:28:41,651 autoreload Watching for file changes with StatReloader
+INFO 2023-11-23 13:28:44,150 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+DEBUG 2023-11-23 13:28:44,150 proactor_events Using proactor: IocpProactor
+INFO 2023-11-23 13:28:44,788 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-23 13:28:49,290 log Not Found: /profiles/zzz/
+INFO 2023-11-23 13:29:25,403 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+DEBUG 2023-11-23 13:29:25,403 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-23 13:29:25,825 proactor_events Using proactor: IocpProactor
+INFO 2023-11-23 13:31:30,228 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-23 13:31:35,829 log Not Found: /profiles/zzz/
+WARNING 2023-11-23 13:31:35,890 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 13:33:22,981 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 13:33:26,874 log Not Found: /lettings/zzz
+INFO 2023-11-23 13:34:31,692 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+DEBUG 2023-11-23 13:34:31,692 proactor_events Using proactor: IocpProactor
+INFO 2023-11-23 13:34:32,406 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-23 13:34:37,532 log Not Found: /lettings/zzz
+WARNING 2023-11-23 13:34:37,591 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 13:34:38,049 log Not Found: /lettings/zzz
+WARNING 2023-11-23 13:34:38,437 log Not Found: /lettings/zzz
+INFO 2023-11-23 13:37:08,275 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+DEBUG 2023-11-23 13:37:08,275 proactor_events Using proactor: IocpProactor
+INFO 2023-11-23 13:37:08,930 autoreload Watching for file changes with StatReloader
+INFO 2023-11-23 13:38:41,035 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+DEBUG 2023-11-23 13:38:41,704 proactor_events Using proactor: IocpProactor
+INFO 2023-11-23 13:39:09,976 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-23 13:39:13,306 log Not Found: /lettings/zzz
+WARNING 2023-11-23 13:39:13,860 log Not Found: /lettings/zzz
+WARNING 2023-11-23 13:39:14,294 log Not Found: /lettings/zzz
+WARNING 2023-11-23 14:24:11,991 log Not Found: /lettings/zzz
+WARNING 2023-11-23 14:24:12,005 log Not Found: /static/css/styles.css
+WARNING 2023-11-23 14:24:12,008 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:24:12,011 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:24:12,375 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:24:12,404 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:24:12,419 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:24:30,220 log Not Found: /sentry-testing/
+WARNING 2023-11-23 14:24:30,237 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:24:30,240 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:24:30,259 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:24:30,261 log Not Found: /static/js/scripts.js
+ERROR 2023-11-23 14:24:40,985 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-23 14:24:41,020 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:24:41,021 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:24:41,043 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:24:41,045 log Not Found: /static/js/scripts.js
+ERROR 2023-11-23 14:27:11,798 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-23 14:27:11,821 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:27:11,825 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:27:11,843 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:27:11,846 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:27:13,168 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:27:13,170 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:27:13,183 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:27:13,836 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:27:13,837 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:27:15,585 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:27:15,586 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:27:15,602 log Not Found: /static/js/scripts.js
+ERROR 2023-11-23 14:27:19,218 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-23 14:27:19,263 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:27:19,265 log Not Found: /static/js/scripts.js
+ERROR 2023-11-23 14:28:22,571 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-23 14:28:22,590 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:28:22,592 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:28:22,609 log Not Found: /static/js/scripts.js
+INFO 2023-11-23 14:31:20,457 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+INFO 2023-11-23 14:31:21,146 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-23 14:31:24,441 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-23 14:31:24,473 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:31:24,474 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:31:24,487 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:31:31,070 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:31:31,072 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:31:34,560 log Not Found: /aa
+WARNING 2023-11-23 14:31:34,583 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:31:34,585 log Not Found: /static/assets/img/logo.png
+INFO 2023-11-23 14:32:32,035 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+INFO 2023-11-23 14:32:32,709 autoreload Watching for file changes with StatReloader
+INFO 2023-11-23 14:32:46,343 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+INFO 2023-11-23 14:33:44,132 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-23 14:34:03,176 log Not Found: /aa
+WARNING 2023-11-23 14:34:03,189 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:34:03,194 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:34:03,207 log Not Found: /static/js/scripts.js
+WARNING 2023-11-23 14:34:03,682 log Not Found: /aa
+WARNING 2023-11-23 14:34:03,696 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-23 14:34:03,697 log Not Found: /static/js/scripts.js
+INFO 2023-11-23 14:37:08,942 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+WARNING 2023-11-24 12:04:21,857 log Not Found: /lettings/2/
+WARNING 2023-11-24 12:04:21,864 log Not Found: /fffff/
+WARNING 2023-11-24 12:04:22,274 log Not Found: /profiles/PatrickNotHere/
+WARNING 2023-11-24 12:04:38,696 log Not Found: /lettings/2/
+WARNING 2023-11-24 12:04:38,701 log Not Found: /fffff/
+WARNING 2023-11-24 12:04:39,112 log Not Found: /profiles/PatrickNotHere/
+INFO 2023-11-24 12:04:49,691 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-24 12:05:13,632 log Not Found: /static/css/styles.css
+WARNING 2023-11-24 12:05:13,636 log Not Found: /static/js/scripts.js
+WARNING 2023-11-24 12:05:13,729 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-24 12:05:13,764 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-24 12:05:13,767 log Not Found: /static/js/scripts.js
+WARNING 2023-11-24 12:05:19,303 log Not Found: /sentry-bug/
+WARNING 2023-11-24 12:05:19,321 log Not Found: /static/css/styles.css
+WARNING 2023-11-24 12:05:19,322 log Not Found: /static/js/scripts.js
+WARNING 2023-11-24 12:05:19,328 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-24 12:05:19,340 log Not Found: /static/js/scripts.js
+WARNING 2023-11-24 12:10:00,294 log Not Found: /lettings/2/
+WARNING 2023-11-24 12:10:00,300 log Not Found: /fffff/
+WARNING 2023-11-24 12:10:00,717 log Not Found: /profiles/PatrickNotHere/
+INFO 2023-11-24 12:14:52,104 autoreload Watching for file changes with StatReloader
+WARNING 2023-11-24 12:14:54,187 log Not Found: /sentry-bug/
+WARNING 2023-11-24 12:14:54,204 log Not Found: /static/css/styles.css
+WARNING 2023-11-24 12:14:54,207 log Not Found: /static/js/scripts.js
+WARNING 2023-11-24 12:14:54,211 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-24 12:14:54,223 log Not Found: /static/js/scripts.js
+ERROR 2023-11-24 12:14:57,281 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-24 12:14:57,322 log Not Found: /static/css/styles.css
+WARNING 2023-11-24 12:14:57,324 log Not Found: /static/js/scripts.js
+WARNING 2023-11-24 12:14:57,330 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-24 12:14:57,345 log Not Found: /static/js/scripts.js
+ERROR 2023-11-24 12:18:45,755 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-24 12:18:45,777 log Not Found: /static/css/styles.css
+WARNING 2023-11-24 12:18:45,781 log Not Found: /static/js/scripts.js
+WARNING 2023-11-24 12:18:45,785 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-24 12:18:45,796 log Not Found: /static/js/scripts.js
+ERROR 2023-11-24 12:18:47,215 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-24 12:18:47,238 log Not Found: /static/css/styles.css
+WARNING 2023-11-24 12:18:47,240 log Not Found: /static/js/scripts.js
+WARNING 2023-11-24 12:18:47,245 log Not Found: /static/assets/img/logo.png
+WARNING 2023-11-24 12:18:47,255 log Not Found: /static/js/scripts.js
+INFO 2023-11-24 12:19:04,108 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+INFO 2023-11-24 12:19:04,897 autoreload Watching for file changes with StatReloader
+ERROR 2023-11-24 12:19:05,234 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-24 12:19:05,270 log Not Found: /favicon.ico
+ERROR 2023-11-24 12:19:24,373 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-24 12:19:24,395 log Not Found: /favicon.ico
+ERROR 2023-11-24 12:19:26,548 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+WARNING 2023-11-24 12:19:26,574 log Not Found: /favicon.ico
+WARNING 2023-11-24 12:19:44,823 log Not Found: /fff/
+INFO 2023-11-24 12:20:13,657 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+INFO 2023-11-24 12:20:14,358 autoreload Watching for file changes with StatReloader
+INFO 2023-11-24 12:20:33,711 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\settings.py changed, reloading.
+DEBUG 2023-11-24 12:20:33,712 proactor_events Using proactor: IocpProactor
+INFO 2023-11-24 12:20:34,509 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-24 12:20:34,542 connectionpool Starting new HTTPS connection (1): o4506269507715072.ingest.sentry.io:443
+DEBUG 2023-11-24 12:20:34,905 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+WARNING 2023-11-24 12:20:37,078 log Not Found: /fff/
+WARNING 2023-11-24 12:20:37,099 log Not Found: /favicon.ico
+DEBUG 2023-11-24 12:20:37,129 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-24 12:20:37,155 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-24 12:21:37,114 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-24 12:28:35,231 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-24 12:28:40,053 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-24 12:28:40,533 log Not Found: /lettings/2/
+WARNING 2023-11-24 12:28:40,541 log Not Found: /fffff/
+WARNING 2023-11-24 12:28:40,977 log Not Found: /profiles/PatrickNotHere/
+INFO 2023-11-27 10:08:09,818 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-27 10:08:17,765 connectionpool Starting new HTTPS connection (1): o4506269507715072.ingest.sentry.io:443
+DEBUG 2023-11-27 10:08:18,143 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 10:08:18,169 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 10:08:18,195 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 10:08:18,219 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 10:08:18,241 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 10:08:18,265 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 10:08:18,289 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 10:09:17,793 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+INFO 2023-11-27 10:11:35,195 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\profiles\views.py changed, reloading.
+DEBUG 2023-11-27 10:11:35,196 proactor_events Using proactor: IocpProactor
+INFO 2023-11-27 10:11:35,881 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-27 10:11:40,875 connectionpool Starting new HTTPS connection (1): o4506269507715072.ingest.sentry.io:443
+DEBUG 2023-11-27 10:11:41,168 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 10:11:41,193 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 10:11:42,317 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+ERROR 2023-11-27 10:11:42,317 log Internal Server Error: /profiles/HeadlinesGazer/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\profiles\views.py", line 43, in profile
+    return render(request, "profiles/profiles.html", context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\templates.py", line 102, in render
+    return real_render(request, template_name, context, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: profiles/profiles.html
+DEBUG 2023-11-27 10:11:42,354 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 10:12:40,899 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+INFO 2023-11-27 10:12:50,325 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\profiles\views.py changed, reloading.
+DEBUG 2023-11-27 10:12:50,326 proactor_events Using proactor: IocpProactor
+INFO 2023-11-27 10:12:50,986 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-27 10:19:02,955 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-27 10:19:03,025 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-27 10:22:06,539 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 10:22:06,807 log Not Found: /lettings/2/
+WARNING 2023-11-27 10:22:06,813 log Not Found: /fffff/
+WARNING 2023-11-27 10:22:07,238 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 10:22:19,004 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 10:22:19,475 log Not Found: /lettings/2/
+WARNING 2023-11-27 10:22:19,484 log Not Found: /fffff/
+WARNING 2023-11-27 10:22:19,905 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:09:49,600 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:09:50,013 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:09:50,022 log Not Found: /fffff/
+WARNING 2023-11-27 11:09:50,445 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:10:29,532 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:10:29,948 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:10:29,957 log Not Found: /fffff/
+WARNING 2023-11-27 11:10:30,378 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:11:02,657 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:11:03,061 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:11:03,070 log Not Found: /fffff/
+WARNING 2023-11-27 11:11:03,492 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:11:27,925 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:11:28,330 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:11:28,338 log Not Found: /fffff/
+WARNING 2023-11-27 11:11:28,762 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:12:14,606 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-27 11:12:31,357 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-27 11:14:30,412 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:14:30,661 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:14:30,667 log Not Found: /fffff/
+WARNING 2023-11-27 11:14:31,075 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:14:55,005 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:14:55,420 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:14:55,428 log Not Found: /fffff/
+WARNING 2023-11-27 11:14:55,849 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:16:55,006 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:16:55,414 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:16:55,422 log Not Found: /fffff/
+WARNING 2023-11-27 11:16:55,846 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:17:09,161 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:17:09,565 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:17:09,574 log Not Found: /fffff/
+WARNING 2023-11-27 11:17:09,996 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:17:43,061 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:17:43,481 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:17:43,488 log Not Found: /fffff/
+WARNING 2023-11-27 11:17:43,911 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:17:55,089 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:17:55,494 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:17:55,502 log Not Found: /fffff/
+WARNING 2023-11-27 11:17:55,925 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:18:05,810 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:18:06,215 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:18:06,223 log Not Found: /fffff/
+WARNING 2023-11-27 11:18:06,645 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:18:20,519 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:18:20,928 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:18:20,938 log Not Found: /fffff/
+WARNING 2023-11-27 11:18:21,365 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:18:36,266 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:18:36,666 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:18:36,675 log Not Found: /fffff/
+WARNING 2023-11-27 11:18:37,099 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:18:57,125 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:18:57,534 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:18:57,543 log Not Found: /fffff/
+WARNING 2023-11-27 11:18:57,981 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:19:23,773 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:19:24,173 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:19:24,181 log Not Found: /fffff/
+WARNING 2023-11-27 11:19:24,615 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:19:50,209 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:19:50,610 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:19:50,618 log Not Found: /fffff/
+WARNING 2023-11-27 11:19:51,047 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:20:12,829 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:20:13,230 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:20:13,238 log Not Found: /fffff/
+WARNING 2023-11-27 11:20:13,658 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:20:38,849 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:20:39,252 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:20:39,260 log Not Found: /fffff/
+WARNING 2023-11-27 11:20:39,680 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:21:10,668 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:21:11,073 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:21:11,081 log Not Found: /fffff/
+WARNING 2023-11-27 11:21:11,502 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:21:57,756 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:21:58,162 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:21:58,170 log Not Found: /fffff/
+WARNING 2023-11-27 11:21:58,596 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:24:06,746 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:24:07,002 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:24:07,008 log Not Found: /fffff/
+WARNING 2023-11-27 11:24:07,415 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:24:14,196 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:24:14,609 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:24:14,618 log Not Found: /fffff/
+WARNING 2023-11-27 11:24:15,041 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:25:43,880 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:25:44,285 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:25:44,296 log Not Found: /fffff/
+WARNING 2023-11-27 11:25:44,720 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:25:44,795 connectionpool Starting new HTTPS connection (1): o4506269507715072.ingest.sentry.io:443
+ERROR 2023-11-27 11:25:44,794 log Internal Server Error: /sentry-debug/
+Traceback (most recent call last):
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\env\Lib\site-packages\sentry_sdk\integrations\django\views.py", line 84, in sentry_wrapped_callback
+    return callback(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\views.py", line 17, in trigger_error
+    division_by_zero = 1 / 0
+                       ~~^~~
+ZeroDivisionError: division by zero
+DEBUG 2023-11-27 11:25:45,099 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:57,964 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-27 11:26:58,393 connectionpool Starting new HTTPS connection (1): o4506269507715072.ingest.sentry.io:443
+DEBUG 2023-11-27 11:26:58,726 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:58,753 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:58,780 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:58,808 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:58,840 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:58,897 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:58,932 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:58,975 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:59,460 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:59,499 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:59,532 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:59,578 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:59,626 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:59,674 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:59,722 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:26:59,775 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:00,369 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:00,405 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:00,442 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:00,478 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:00,525 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:00,573 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:00,637 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:00,686 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:01,297 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:01,331 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:01,368 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:01,406 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:01,454 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:01,500 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:01,547 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:01,595 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:02,331 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:02,395 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:02,441 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:02,475 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:02,522 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:02,585 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:02,628 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:02,673 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:03,376 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:03,414 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:03,446 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:03,492 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:03,539 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:03,587 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:03,651 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:03,688 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:04,438 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:04,472 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:04,509 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:04,549 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:04,581 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:04,643 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:04,706 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:04,748 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:05,333 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:05,365 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:05,401 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:05,444 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:05,480 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:05,544 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:05,588 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:05,653 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:09,853 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-27 11:27:10,103 connectionpool Starting new HTTPS connection (1): o4506269507715072.ingest.sentry.io:443
+DEBUG 2023-11-27 11:27:10,405 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,434 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,468 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,505 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,541 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,575 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,607 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,643 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,704 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,743 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,783 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,810 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,844 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,882 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,917 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:10,948 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,111 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,159 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,189 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,218 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,249 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,300 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,340 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,375 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,546 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,584 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,617 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,663 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,693 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,724 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,753 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:11,783 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,088 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,128 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,155 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,184 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,217 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,254 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,287 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,317 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,620 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,664 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,693 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,722 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,751 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,783 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,819 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:12,853 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:30,395 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-27 11:27:30,646 connectionpool Starting new HTTPS connection (1): o4506269507715072.ingest.sentry.io:443
+DEBUG 2023-11-27 11:27:30,955 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:30,983 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,018 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,054 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,086 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,123 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,155 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,190 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,253 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,290 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,330 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,358 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,391 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,435 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,468 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,496 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,660 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,705 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,736 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,783 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,814 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,875 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,908 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:31,939 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,091 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,118 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,157 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,183 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,211 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,252 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,304 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,341 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,630 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,658 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,697 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,728 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,758 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,792 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,829 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:32,863 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:33,166 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:33,194 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:33,234 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:33,278 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:33,312 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:33,339 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:33,386 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:33,418 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+DEBUG 2023-11-27 11:27:34,402 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+INFO 2023-11-27 11:27:39,947 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-27 11:27:39,997 connectionpool Starting new HTTPS connection (1): o4506269507715072.ingest.sentry.io:443
+DEBUG 2023-11-27 11:27:40,276 connectionpool https://o4506269507715072.ingest.sentry.io:443 "POST /api/4506269508829184/envelope/ HTTP/1.1" 200 0
+INFO 2023-11-27 11:28:03,726 autoreload C:\Users\Kévin\Desktop\Openclassroom\13_Deployment_lettings\oc_lettings_site\urls.py changed, reloading.
+DEBUG 2023-11-27 11:28:03,726 proactor_events Using proactor: IocpProactor
+INFO 2023-11-27 11:28:04,380 autoreload Watching for file changes with StatReloader
+DEBUG 2023-11-27 11:28:05,710 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-27 11:28:05,785 proactor_events Using proactor: IocpProactor
+DEBUG 2023-11-27 11:28:08,930 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:28:09,181 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:28:09,187 log Not Found: /fffff/
+WARNING 2023-11-27 11:28:09,596 log Not Found: /profiles/PatrickNotHere/
+DEBUG 2023-11-27 11:28:14,969 proactor_events Using proactor: IocpProactor
+WARNING 2023-11-27 11:28:15,374 log Not Found: /lettings/2/
+WARNING 2023-11-27 11:28:15,382 log Not Found: /fffff/
+WARNING 2023-11-27 11:28:15,806 log Not Found: /profiles/PatrickNotHere/
