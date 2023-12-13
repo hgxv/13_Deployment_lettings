@@ -17,7 +17,7 @@ print(BASE_DIR)
 environ.Env.read_env(os.path.join(BASE_DIR, ".env"))
 
 # Quick-start development settings - unsuitable for production
-# See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
+# See https://docs.djangoproject.code2edaf4bdd8m/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = env("SECRET_KEY")
@@ -128,27 +128,7 @@ STATICFILES_DIRS = [
 ]
 
 
-LOGGING = {
-    "version": 1,
-    "disable_existing_loggers": False,
-    "formatters": {
-        "verbose": {
-            "format": "{levelname} {asctime} {module} {message}",
-            "style": "{",
-        }
-    },
-    "handlers": {
-        "file": {
-            "class": "logging.FileHandler",
-            "filename": "Exceptions.log",
-            "formatter": "verbose",
-        },
-    },
-    "root": {
-        "handlers": ["file"],
-        "level": "DEBUG",
-    },
-}
+
 
 
 sentry_sdk.init(
