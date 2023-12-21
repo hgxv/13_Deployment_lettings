@@ -1,5 +1,3 @@
-from .conftest import client
-
 import pytest
 
 

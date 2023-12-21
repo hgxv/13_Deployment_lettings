@@ -1,5 +1,3 @@
-from .conftest import client
-
 from pytest_django.asserts import assertTemplateUsed
 
 

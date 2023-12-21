@@ -1,5 +1,3 @@
-from .conftest import letting_fixture, client
-
 import pytest
 from pytest_django.asserts import assertTemplateUsed
 
