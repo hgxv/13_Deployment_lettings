@@ -20,7 +20,7 @@ jobs:
           command: |
             source env/bin/activate
             pytest
-            coverage report fail-under 80
+            coverage report --fail-under 80
 
       - store_artifacts:
           path: .coverage
