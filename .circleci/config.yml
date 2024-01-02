@@ -16,9 +16,10 @@ jobs:
             python3 -m pip install -r requirements.txt
 
       - run:
-          name: Run tests
+          name: Run tests and lint
           command: |
             source env/bin/activate
+            flake8
             pytest
             pytest --cov
             coverage report -m --fail-under 80
