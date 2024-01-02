@@ -4,7 +4,7 @@ services:
   web:
     build: .
     volumes:
-      - .:/code
-      - .oc-lettings-site.sqlite3
+      - ./:/app/oc-lettings-site.sqlite3
     ports:
       - "8000:8000"
+
