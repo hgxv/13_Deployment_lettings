@@ -36,14 +36,14 @@ jobs:
       - checkout
       - run:
         name: Pushing to Docker
-        command:  |
+        command: |
         docker build -t app .
         docker tag app hgxv99/13_lettings
         docker push hgxv99/13_lettings$
       
       - run:
         name: Push to Heroku
-        command:  |
+        command: |
         sudo curl https://cli-assets.heroku.com/install.sh | sh
         HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
         HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:push -a  oc-lettings-13 web
