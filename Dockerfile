@@ -5,4 +5,5 @@ WORKDIR /app
 ADD requirements.txt /app/
 RUN pip install -r requirements.txt
 ADD . /app/
-CMD python3 manage.py runserver 0.0.0.0:8000
+CMD python manage.py collectstatic --noinput 
+CMD python manage.py runserver 0.0.0.0:8000
