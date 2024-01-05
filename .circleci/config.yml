@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  build_and_test:
+  lint_and_test:
     docker:
       - image: python:3.11
 
@@ -27,8 +27,33 @@ jobs:
       - store_artifacts:
           path: .coverage
           destination: coverage
+  
+  build:
+    docker:
+      - image: python:3.11
+    
+    steps:
+      - checkout
+      - run:
+        name: Pushing to Docker
+        command:  |
+        docker build -t app .
+        docker tag app hgxv99/13_lettings
+        docker push hgxv99/13_lettings$
+      
+      - run:
+        name: Push to Heroku
+        command:  |
+        sudo curl https://cli-assets.heroku.com/install.sh | sh
+        HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
+        HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:push -a  oc-lettings-13 web
+        HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a oc-lettings-13 web
+      
 
 workflows:
   run_tests:
     jobs:
-      - build_and_test
+      - lint_and_test
+  build:
+    jobs:
+      - build
