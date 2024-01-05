@@ -27,13 +27,6 @@ jobs:
       - store_artifacts:
           path: .coverage
           destination: coverage
-  
-  build:
-    docker:
-      - image: python:3.11
-    
-    steps:
-      - checkout
 
       - run:
         name: Pushing to Docker
@@ -55,6 +48,4 @@ workflows:
   run_tests:
     jobs:
       - lint_and_test
-  build:
-    jobs:
-      - build
+
