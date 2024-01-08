@@ -18,7 +18,7 @@ jobs:
 
       - run:
           name: Run tests and lint
-
+          command: |
             source env/bin/activate
             flake8
             pytest
