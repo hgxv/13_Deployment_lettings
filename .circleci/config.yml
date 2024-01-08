@@ -38,21 +38,21 @@ jobs:
       - checkout
 
       - run:
-        name: Build Docker image
-        command: |
-          echo "$DOCKER_PASS" | docker login --username $DOCKER_USER --password-stdin
-          docker build -t hgxv99/13_lettings .
-          docker push hgxv99/13_lettings
+          name: Build Docker image
+          command: |
+            echo "$DOCKER_PASS" | docker login --username $DOCKER_USER --password-stdin
+            docker build -t hgxv99/13_lettings .
+            docker push hgxv99/13_lettings
 
       - run:
-        name: Push to Heroku
-        command: |
-          apt-get install -y sudo
-          ls -al /bin/sh && sudo rm /bin/sh && sudo ln -s /bin/bash /bin/sh && ls -al /bin/sh
-          sudo curl https://cli-assets.heroku.com/install.sh | sh
-          HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
-          HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:push -a  oc-lettings-13 web
-          HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a oc-lettings-13 web
+          name: Push to Heroku
+          command: |
+            apt-get install -y sudo
+            ls -al /bin/sh && sudo rm /bin/sh && sudo ln -s /bin/bash /bin/sh && ls -al /bin/sh
+            sudo curl https://cli-assets.heroku.com/install.sh | sh
+            HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
+            HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:push -a  oc-lettings-13 web
+            HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:release -a oc-lettings-13 web
       
 
 workflows:
