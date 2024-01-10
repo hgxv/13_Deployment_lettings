@@ -59,5 +59,7 @@ workflows:
   run_tests:
     jobs:
       - lint_and_test
-      - build_and_deploy
+      - build_and_deploy:
+        requires:
+          - lint_and_test
 
