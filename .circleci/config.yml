@@ -53,8 +53,6 @@ jobs:
       - run:
           name: Push to Heroku
           command: |
-            apt-get install -y sudo
-            ls -al /bin/sh && sudo rm /bin/sh && sudo ln -s /bin/bash /bin/sh && ls -al /bin/sh
             sudo curl https://cli-assets.heroku.com/install.sh | sh
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:login
             HEROKU_API_KEY=${HEROKU_TOKEN} heroku container:push -a  oc-lettings-13 web
