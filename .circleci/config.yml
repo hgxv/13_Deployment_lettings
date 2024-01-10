@@ -38,7 +38,7 @@ jobs:
       IMAGE_NAME: hgxv99/13_lettings
 
     docker:
-      - image: python:3.11
+      - image: circleci/buildpack-deps:stretch
     
     steps:
       - checkout
