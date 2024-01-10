@@ -30,7 +30,7 @@ jobs:
           destination: coverage
   
 
-  build_and_deploy:
+  build:
     machine:
       image: ubuntu-2204:2022.04.2
     
@@ -43,6 +43,12 @@ jobs:
             echo "$DOCKER_PASS" | docker login --username $DOCKER_USER --password-stdin
             docker build -t $DOCKER_IMAGE .
             docker push $DOCKER_IMAGE
+
+  deploy:
+    machine: true
+
+    steps:
+      - checkout
 
       - run:
           name: Push to Heroku
@@ -59,7 +65,11 @@ workflows:
   run_tests:
     jobs:
       - lint_and_test
-      - build_and_deploy:
-        requires:
-          - lint_and_test
+      - build:
+          requires:
+            - lint_and_test
+      - deploy:
+          requires:
+            - build
+      
 
