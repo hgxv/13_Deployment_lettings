@@ -1,8 +1,5 @@
 version: 2.1
 
-orbs:
-  docker: circleci/docker@2.4.0
-
 jobs:
   lint_and_test:
     docker:
@@ -34,24 +31,21 @@ jobs:
   
 
   build_and_deploy:
-    environment:
-      IMAGE_NAME: hgxv99/13_lettings
-
-    docker:
-      - image: circleci/buildpack-deps:stretch
+    machine:
+      image: ubuntu-2204:2022.04.2
     
     steps:
       - checkout
-      - setup_remote_docker:
-          version: 20.10.7
-          docker_layer_caching: true
 
+      - setup_remote_docker:
+        docker_layer_caching: true
+      
       - run:
           name: Build Docker image
           command: |
             echo "$DOCKER_PASS" | docker login --username $DOCKER_USER --password-stdin
-            docker build -t $IMAGE_NAME:latest .
-            docker push $IMAGE_NAME:latest
+            docker build -t $DOCKER_IMAGE .
+            docker push $DOCKER_IMAGE
 
       - run:
           name: Push to Heroku
