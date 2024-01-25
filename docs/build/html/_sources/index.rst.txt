@@ -6,10 +6,17 @@
 Welcome to HolidayHomes's documentation!
 ========================================
 
+.. note::
+
+   This project is under active development.
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+   models
+   tests
+   views
 
 
 Indices and tables

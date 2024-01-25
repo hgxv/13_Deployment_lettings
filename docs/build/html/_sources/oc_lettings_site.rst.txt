@@ -1,0 +1,12 @@
+General Tests
+================
+.. automodule:: oc_lettings_site.tests.test_404
+    :members:
+
+.. automodule:: oc_lettings_site.tests.test_index
+    :members:
+
+General Views
+===============
+.. automodule:: oc_lettings_site.views
+    :members:

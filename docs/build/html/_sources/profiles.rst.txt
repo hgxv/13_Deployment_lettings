@@ -1,0 +1,20 @@
+Profiles Models
+===============
+.. automodule:: profiles.models
+    :members:
+
+Profiles Views
+===============
+.. automodule:: profiles.views
+    :members:
+
+Profiles Tests
+================
+.. automodule:: profiles.tests.conftest
+    :members:
+
+.. automodule:: profiles.tests.test_index
+    :members:
+
+.. automodule:: profiles.tests.test_profile
+    :members:
