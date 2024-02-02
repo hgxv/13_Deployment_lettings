@@ -33,10 +33,153 @@
             
   <section id="welcome-to-holidayhomes-s-documentation">
 <h1>Welcome to HolidayHomes’s documentation!<a class="headerlink" href="#welcome-to-holidayhomes-s-documentation" title="Link to this heading">¶</a></h1>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>This project is under active development.</p>
-</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+<section id="resume">
+<h1>Résumé<a class="headerlink" href="#resume" title="Link to this heading">¶</a></h1>
+<p>Site web d’Orange County Lettings</p>
+</section>
+<section id="developpement-local">
+<h1>Développement local<a class="headerlink" href="#developpement-local" title="Link to this heading">¶</a></h1>
+<section id="prerequis">
+<h2>Prérequis<a class="headerlink" href="#prerequis" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Compte GitHub avec accès en lecture à ce repository</p></li>
+<li><p>Git CLI</p></li>
+<li><p>SQLite3 CLI</p></li>
+<li><p>Interpréteur Python, version 3.6 ou supérieure</p></li>
+</ul>
+<p>Dans le reste de la documentation sur le développement local, il est supposé que la commande <code class="docutils literal notranslate"><span class="pre">python</span></code> de votre OS shell exécute l’interpréteur Python ci-dessus (à moins qu’un environnement virtuel ne soit activé).</p>
+</section>
+<section id="macos-linux">
+<h2>macOS / Linux<a class="headerlink" href="#macos-linux" title="Link to this heading">¶</a></h2>
+<section id="cloner-le-repository">
+<h3>Cloner le repository<a class="headerlink" href="#cloner-le-repository" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">/path/to/put/project/in</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span> <span class="pre">https://github.com/OpenClassrooms-Student-Center/Python-OC-Lettings-FR.git</span></code></p></li>
+</ul>
+</section>
+<section id="creer-l-environnement-virtuel">
+<h3>Créer l’environnement virtuel<a class="headerlink" href="#creer-l-environnement-virtuel" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">/path/to/Python-OC-Lettings-FR</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">-m</span> <span class="pre">venv</span> <span class="pre">venv</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">python3-venv</span></code> (Si l’étape précédente comporte des erreurs avec un paquet non trouvé sur Ubuntu)</p></li>
+<li><p>Activer l’environnement <code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">venv/bin/activate</span></code></p></li>
+<li><p>Confirmer que la commande <code class="docutils literal notranslate"><span class="pre">python</span></code> exécute l’interpréteur Python dans l’environnement virtuel <code class="docutils literal notranslate"><span class="pre">which</span> <span class="pre">python</span></code></p></li>
+<li><p>Confirmer que la version de l’interpréteur Python est la version 3.6 ou supérieure <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">--version</span></code></p></li>
+<li><p>Confirmer que la commande <code class="docutils literal notranslate"><span class="pre">pip</span></code> exécute l’exécutable pip dans l’environnement virtuel, <code class="docutils literal notranslate"><span class="pre">which</span> <span class="pre">pip</span></code></p></li>
+<li><p>Pour désactiver l’environnement, <code class="docutils literal notranslate"><span class="pre">deactivate</span></code></p></li>
+<li><p>Create a .env file at the root and add your django SECRET_KEY</p></li>
+</ul>
+</section>
+<section id="executer-le-site">
+<h3>Exécuter le site<a class="headerlink" href="#executer-le-site" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">/path/to/Python-OC-Lettings-FR</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">venv/bin/activate</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">--requirement</span> <span class="pre">requirements.txt</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">manage.py</span> <span class="pre">runserver</span></code></p></li>
+<li><p>Aller sur <code class="docutils literal notranslate"><span class="pre">http://localhost:8000</span></code> dans un navigateur.</p></li>
+<li><p>Confirmer que le site fonctionne et qu’il est possible de naviguer (vous devriez voir plusieurs profils et locations).</p></li>
+</ul>
+</section>
+<section id="linting">
+<h3>Linting<a class="headerlink" href="#linting" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">/path/to/Python-OC-Lettings-FR</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">venv/bin/activate</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">flake8</span></code></p></li>
+</ul>
+</section>
+<section id="tests-unitaires">
+<h3>Tests unitaires<a class="headerlink" href="#tests-unitaires" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">/path/to/Python-OC-Lettings-FR</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">source</span> <span class="pre">venv/bin/activate</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">pytest</span></code></p></li>
+</ul>
+</section>
+<section id="base-de-donnees">
+<h3>Base de données<a class="headerlink" href="#base-de-donnees" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">cd</span> <span class="pre">/path/to/Python-OC-Lettings-FR</span></code></p></li>
+<li><p>Ouvrir une session shell <code class="docutils literal notranslate"><span class="pre">sqlite3</span></code></p></li>
+<li><p>Se connecter à la base de données <code class="docutils literal notranslate"><span class="pre">.open</span> <span class="pre">oc-lettings-site.sqlite3</span></code></p></li>
+<li><p>Afficher les tables dans la base de données <code class="docutils literal notranslate"><span class="pre">.tables</span></code></p></li>
+<li><p>Afficher les colonnes dans le tableau des profils, <code class="docutils literal notranslate"><span class="pre">pragma</span> <span class="pre">table_info(Python-OC-Lettings-FR_profile);</span></code></p></li>
+<li><p>Lancer une requête sur la table des profils, <code class="docutils literal notranslate"><span class="pre">select</span> <span class="pre">user_id,</span> <span class="pre">favorite_city</span> <span class="pre">from</span> <span class="pre">Python-OC-Lettings-FR_profile</span> <span class="pre">where</span> <span class="pre">favorite_city</span> <span class="pre">like</span> <span class="pre">'B%';</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">.quit</span></code> pour quitter</p></li>
+</ul>
+</section>
+<section id="panel-d-administration">
+<h3>Panel d’administration<a class="headerlink" href="#panel-d-administration" title="Link to this heading">¶</a></h3>
+<ul class="simple">
+<li><p>Aller sur <code class="docutils literal notranslate"><span class="pre">http://localhost:8000/admin</span></code></p></li>
+<li><p>Connectez-vous avec l’utilisateur <code class="docutils literal notranslate"><span class="pre">admin</span></code>, mot de passe <code class="docutils literal notranslate"><span class="pre">Abc1234!</span></code></p></li>
+</ul>
+</section>
+<section id="windows">
+<h3>Windows<a class="headerlink" href="#windows" title="Link to this heading">¶</a></h3>
+<p>Utilisation de PowerShell, comme ci-dessus sauf :</p>
+<ul class="simple">
+<li><p>Pour activer l’environnement virtuel, <code class="docutils literal notranslate"><span class="pre">.\venv\Scripts\Activate.ps1</span></code></p></li>
+<li><p>Remplacer <code class="docutils literal notranslate"><span class="pre">which</span> <span class="pre">&lt;my-command&gt;</span></code> par <code class="docutils literal notranslate"><span class="pre">(Get-Command</span> <span class="pre">&lt;my-command&gt;).Path</span></code></p></li>
+</ul>
+</section>
+</section>
+</section>
+<section id="deploiement">
+<h1>Déploiement<a class="headerlink" href="#deploiement" title="Link to this heading">¶</a></h1>
+<section id="id1">
+<h2>Prérequis<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Compte Sentry</p></li>
+<li><p>Compte Dockerhub</p></li>
+<li><p>Compte CircleCI</p></li>
+<li><p>Compte Heroku</p></li>
+<li><p>Heroku CLI</p></li>
+</ul>
+</section>
+<section id="sentry">
+<h2>Sentry<a class="headerlink" href="#sentry" title="Link to this heading">¶</a></h2>
+<ul class="simple">
+<li><p>Dans les paramètres du projet, dans Client Keys, ajoutez le code DSN au fichier .env</p></li>
+</ul>
+</section>
+<section id="circleci">
+<h2>CircleCI<a class="headerlink" href="#circleci" title="Link to this heading">¶</a></h2>
+<p>Dans les variables d’environnement du projet, ajoutez les variables suivantes:</p>
+<ul class="simple">
+<li><p>DOCKER_IMAGE –&gt; docker_username/nom_du_projet</p></li>
+<li><p>DOCKER_USER –&gt; Votre nom d’utilisateur docker</p></li>
+<li><p>DOCKER_PASS –&gt; Votre mot de passe docker</p></li>
+<li><p>HEROKU_TOKEN –&gt; <code class="docutils literal notranslate"><span class="pre">heroku</span> <span class="pre">auth:token</span></code></p></li>
+<li><p>SECRET_KEY –&gt; La clef du projet Django</p></li>
+<li><p>SENTRY_DSN –&gt; La clef DSN disponible sur Sentry</p></li>
+</ul>
+</section>
+<section id="heroku">
+<h2>Heroku<a class="headerlink" href="#heroku" title="Link to this heading">¶</a></h2>
+<p>Dans les variables d’environnement, ajoutez les variables suivantes :</p>
+<ul class="simple">
+<li><p>PORT –&gt; 8000</p></li>
+<li><p>SECRET_KEY –&gt; La clef du projet Django</p></li>
+<li><p>SENTRY_DSN –&gt; La clef DSN disponible sur Sentry</p></li>
+<li><p>HEROKU_TOKEN –&gt; <code class="docutils literal notranslate"><span class="pre">heroku</span> <span class="pre">auth:token</span></code></p></li>
+</ul>
+<p>Une fois les comptes configurés, chaque fois que du code est pushé sur GitHub,
+CircleCI s’occupe d’effectuer les tests et le linting.</p>
+<p>Si vous êtes sur la branche master, et que les deux étapes précédentes
+sont valides, le déploiement se lance et le site se met à jour.</p>
 <div class="toctree-wrapper compound">
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
@@ -44,6 +187,14 @@
 <li class="toctree-l2"><a class="reference internal" href="models.html#profiles.models.Profile"><code class="docutils literal notranslate"><span class="pre">Profile</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="models.html#lettings.models.Address"><code class="docutils literal notranslate"><span class="pre">Address</span></code></a></li>
 <li class="toctree-l2"><a class="reference internal" href="models.html#lettings.models.Letting"><code class="docutils literal notranslate"><span class="pre">Letting</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="views.html#oc_lettings_site.views.index"><code class="docutils literal notranslate"><span class="pre">index()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html#profiles.views.profile"><code class="docutils literal notranslate"><span class="pre">profile()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html#profiles.views.profiles_index"><code class="docutils literal notranslate"><span class="pre">profiles_index()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html#lettings.views.letting"><code class="docutils literal notranslate"><span class="pre">letting()</span></code></a></li>
+<li class="toctree-l2"><a class="reference internal" href="views.html#lettings.views.lettings_index"><code class="docutils literal notranslate"><span class="pre">lettings_index()</span></code></a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="tests.html">General Tests</a><ul>
@@ -65,24 +216,9 @@
 <li class="toctree-l2"><a class="reference internal" href="tests.html#profiles.tests.test_profile.test_profile_doesnt_exists"><code class="docutils literal notranslate"><span class="pre">test_profile_doesnt_exists()</span></code></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="views.html#oc_lettings_site.views.index"><code class="docutils literal notranslate"><span class="pre">index()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="views.html#profiles.views.index"><code class="docutils literal notranslate"><span class="pre">index()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="views.html#profiles.views.profile"><code class="docutils literal notranslate"><span class="pre">profile()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="views.html#lettings.views.index"><code class="docutils literal notranslate"><span class="pre">index()</span></code></a></li>
-<li class="toctree-l2"><a class="reference internal" href="views.html#lettings.views.letting"><code class="docutils literal notranslate"><span class="pre">letting()</span></code></a></li>
-</ul>
-</li>
 </ul>
 </div>
 </section>
-<section id="indices-and-tables">
-<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Link to this heading">¶</a></h1>
-<ul class="simple">
-<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
-<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
-<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
-</ul>
 </section>
 
 
@@ -105,10 +241,10 @@
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="models.html">Models</a></li>
+<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tests.html">General Tests</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tests.html#module-lettings.tests.conftest">Lettings Tests</a></li>
 <li class="toctree-l1"><a class="reference internal" href="tests.html#module-profiles.tests.conftest">Profiles Tests</a></li>
-<li class="toctree-l1"><a class="reference internal" href="views.html">Views</a></li>
 </ul>
 
 <div class="relations">
