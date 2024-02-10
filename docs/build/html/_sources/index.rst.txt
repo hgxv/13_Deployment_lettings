@@ -14,13 +14,3 @@ Indices and tables
 * :ref:`search`
 
 .. include:: ../../README.rst
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-
-   models
-   views
-   tests
-
-
