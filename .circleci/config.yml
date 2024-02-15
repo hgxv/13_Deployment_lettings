@@ -31,11 +31,12 @@ jobs:
   
 
   build:
-    machine:
-      image: ubuntu-2204:2022.04.2
+    docker:
+      image: python:3.11
     
     steps:
       - checkout
+      - setup_remote_docker
       
       - run:
           name: Build Docker image
