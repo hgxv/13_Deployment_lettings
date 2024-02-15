@@ -32,7 +32,7 @@ jobs:
 
   build:
     docker:
-      image: cimg/python:3.11
+      - image: python:3.11
     
     steps:
       - checkout
